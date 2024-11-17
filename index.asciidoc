@@ -52,6 +52,7 @@ page? Or d we always have to create HTML from these sources locally and
 have to upload this HTML? We address to two folders, each having a readme
 inside:
 
-Markdown: link:https:./doc/aPageInMarkdown[^]
+Markdown: link:https:./doc/aPageInMarkdown[^] (Recognized but rendering is
+quite different to our local one.)
 
-Asciidoc: link:https:./doc/aPageInAsciidoc[^]
+Asciidoc: link:https:./doc/aPageInAsciidoc[^] (It is not recognized :( )

@@ -22,4 +22,4 @@
 // https://asciidoctor.org/docs/user-manual/
 
 Here, we see the related stuff of the topic at
-link:https://petervranken.github.io/dummyRepoToEvaluateGitPages/doc/someTopic/someTopic.adoc[^].
+link:https://petervranken.github.io/dummyRepoToEvaluateGitPages/doc/someTopic/someTopic.html[^].
