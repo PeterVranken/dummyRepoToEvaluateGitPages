@@ -11,7 +11,7 @@ dummyHtmlDoc.html
 
 https://dummyHtmlDoc.html[Link with absolute root^]
 
-https:dummyHtmlDoc.html[Link with relative root^]
+link:https:dummyHtmlDoc.html[Link with relative root^]
 
 https://./dummyHtmlDoc.html[2nd Link with relative root^]
 
