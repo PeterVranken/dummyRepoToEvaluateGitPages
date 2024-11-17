@@ -15,5 +15,10 @@ link:https:dummyHtmlDoc.html[Link with relative root^]
 
 https://./dummyHtmlDoc.html[2nd Link with relative root^]
 
-This page has been made with Asciidoc file readMe.asciidoc in the root of
-the repository.
+This page has been made with Asciidoc file index.asciidoc in the root of
+the repository. A file readMe.asciidoc is not recognized by GitHub. We had
+to rename it to index.adoc and render it as HTML locally. Then, the
+index.html is uploaded to GitHub and the page is shown as expected.
+
+So, we can either use a Markdown file or we can use Asciidoc if we to the
+transformation into HTML ourselves.
