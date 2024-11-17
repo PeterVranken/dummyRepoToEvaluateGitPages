@@ -22,3 +22,15 @@ index.html is uploaded to GitHub and the page is shown as expected.
 
 So, we can either use a Markdown file or we can use Asciidoc if we to the
 transformation into HTML ourselves.
+
+Here, we have a Doxygen example:
+
+https://petervranken.github.io/dummyRepoToEvaluateGitPages/someApplication/doc/doxygen/html/globals_func.html
+
+link:https:./someApplication/doc/doxygen/html/globals_func.html
+
+link:https:someApplication/doc/doxygen/html/globals_func.html
+
+link:https://./someApplication/doc/doxygen/html/globals_func.html
+
+
