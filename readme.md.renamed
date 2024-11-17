@@ -8,7 +8,7 @@ Pages.
 
 Let's try a first link to an HTML document in the same folder:
 dummyHtmlDoc.html
-[Link with absolute root](https://dummyHtmlDoc.html)
-[Link with relative root](https:dummyHtmlDoc.html)
+[Link with absolute root](https://dummyHtmlDoc.html)<br>
+[Link with relative root](https:dummyHtmlDoc.html)<br>
 [2nd Link with relative root](https://./dummyHtmlDoc.html)
 
