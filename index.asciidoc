@@ -9,11 +9,11 @@ Pages.
 Let's try a first link to an HTML document in the same folder:
 dummyHtmlDoc.html
 
-https://dummyHtmlDoc.html[Link with absolute root^]
+https://dummyHtmlDoc.html[https://dummyHtmlDoc.html^]
 
-link:https:dummyHtmlDoc.html[Link with relative root^]
+link:https:dummyHtmlDoc.html[link:https:dummyHtmlDoc.html^]
 
-https://./dummyHtmlDoc.html[2nd Link with relative root^]
+https://./dummyHtmlDoc.html[https://./dummyHtmlDoc.html^]
 
 This page has been made with Asciidoc file index.asciidoc in the root of
 the repository. A file readMe.asciidoc is not recognized by GitHub. We had
@@ -27,10 +27,10 @@ Here, we have a Doxygen example:
 
 https://petervranken.github.io/dummyRepoToEvaluateGitPages/someApplication/doc/doxygen/html/globals_func.html
 
-link:https:./someApplication/doc/doxygen/html/globals_func.html
+link:https:./someApplication/doc/doxygen/html/globals_func.html[^]
 
-link:https:someApplication/doc/doxygen/html/globals_func.html
+link:https:someApplication/doc/doxygen/html/globals_func.html[^]
 
-link:https://./someApplication/doc/doxygen/html/globals_func.html
+link:https://./someApplication/doc/doxygen/html/globals_func.html[^]
 
 
