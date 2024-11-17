@@ -25,9 +25,8 @@ Here, we are in the documentation of some other topic. Let's see how we
 can access the same resources as from the root page, this time with same
 absolute or modified local links:
 
-Normal use case: We address to related stuff from the same topic:
-
-
+Normal use case: We address to some related stuff from the same topic:
+link:https:relatedStuff/relatedStuff.html[^].
 
 A root level document, as an example, of something which is outside of the
 current sub-folder tree:
@@ -48,6 +47,6 @@ Here, we have a Javadoc example:
 
 https://petervranken.github.io/dummyRepoToEvaluateGitPages/someJavaApplication/doc/dataModel/index.html[^]
 
-https:../../someJavaApplication/doc/dataModel/index.html[^]
+link:https:../../someJavaApplication/doc/dataModel/index.html[^]
 
-https:../../someJavaApplication/doc/dataModel/index.html[^]
+link:https:../../someJavaApplication/doc/dataModel/index.html[^]
