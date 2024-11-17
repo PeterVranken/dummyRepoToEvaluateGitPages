@@ -21,9 +21,13 @@
 :warning-caption:   :warning:
 // https://asciidoctor.org/docs/user-manual/
 
-Here, we are in the documentation of some other topic. Let's see how we
-can access the same resources as from the root page, this time with same
-absolute or modified local links:
+Here, we are in the documentation of some other topic, see
+<<figMyLocalImage>>. Let's see how we can access the same resources as
+from the root page, this time with same absolute or modified local links:
+
+[[figMyLocalImage]]
+.Isn't it a nice image?
+image::someTopic.resources/DEVKIT-MPC5748G.jpg[Isn't it a nice image?, width="70%", pdfwidth="70%", align="center"]
 
 Normal use case: We address to some related stuff from the same topic:
 link:https:relatedStuff/relatedStuff.html[^].
