@@ -1,0 +1,25 @@
+= Some sub-ordinated Topic: Related Stuff
+:Author:            Peter Vranken
+:Email:             mailto:Peter_Vranken@Yahoo.de[P. Vranken]
+:Revnumber:         $Rev: 1 $
+:Revdate:           $Date: 17.11.2024 $
+//:doctype:           book
+:title-page:
+//:table-caption:     Tabelle // TODO Extract all german label settings into new template
+:toc:               left
+//:toc-title:         Inhaltsverzeichnis
+//:toc:
+:toclevels:         3
+//:numbered:
+:xrefstyle:         short
+//:sectanchors:       // Have URLs for chapters (http://.../#section-name
+:icons:             font
+:caution-caption:   :fire:
+:important-caption: :exclamation:
+:note-caption:      :paperclip:
+:tip-caption:       :bulb:
+:warning-caption:   :warning:
+// https://asciidoctor.org/docs/user-manual/
+
+Here, we see the related stuff of the topic at
+link:https://petervranken.github.io/dummyRepoToEvaluateGitPages/doc/someTopic/someTopic.adoc[^].

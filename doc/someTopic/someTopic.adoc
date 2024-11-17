@@ -1,0 +1,53 @@
+= Some sub-ordinated Topic: Links from a nested HTML file
+:Author:            Peter Vranken
+:Email:             mailto:Peter_Vranken@Yahoo.de[P. Vranken]
+:Revnumber:         $Rev: 1 $
+:Revdate:           $Date: 17.11.2024 $
+//:doctype:           book
+:title-page:
+//:table-caption:     Tabelle // TODO Extract all german label settings into new template
+:toc:               left
+//:toc-title:         Inhaltsverzeichnis
+//:toc:
+:toclevels:         3
+//:numbered:
+:xrefstyle:         short
+//:sectanchors:       // Have URLs for chapters (http://.../#section-name
+:icons:             font
+:caution-caption:   :fire:
+:important-caption: :exclamation:
+:note-caption:      :paperclip:
+:tip-caption:       :bulb:
+:warning-caption:   :warning:
+// https://asciidoctor.org/docs/user-manual/
+
+Here, we are in the documentation of some other topic. Let's see how we
+can access the same resources as from the root page, this time with same
+absolute or modified local links:
+
+Normal use case: We address to related stuff from the same topic:
+
+
+
+A root level document, as an example, of something which is outside of the
+current sub-folder tree:
+
+link:https:../../dummyHtmlDoc.html[^]
+
+https://petervranken.github.io/dummyRepoToEvaluateGitPages/dummyHtmlDoc.html[^]
+
+Here, we have a Doxygen example:
+
+https://petervranken.github.io/dummyRepoToEvaluateGitPages/someApplication/doc/doxygen/html/globals_func.html
+
+link:https:../../someApplication/doc/doxygen/html/globals_func.html[^]
+
+link:https:../../someApplication/doc/doxygen/html/globals_func.html[^]
+
+Here, we have a Javadoc example:
+
+https://petervranken.github.io/dummyRepoToEvaluateGitPages/someJavaApplication/doc/dataModel/index.html[^]
+
+https:../../someJavaApplication/doc/dataModel/index.html[^]
+
+https:../../someJavaApplication/doc/dataModel/index.html[^]

@@ -44,3 +44,5 @@ https:./someJavaApplication/doc/dataModel/index.html[^]
 
 https:someJavaApplication/doc/dataModel/index.html[^]
 
+How do relative paths in links change if
+link:https:./doc/someTopic/someTopic.adoc[we leave the root file]? 

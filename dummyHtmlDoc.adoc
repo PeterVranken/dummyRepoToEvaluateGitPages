@@ -1,0 +1,148 @@
+// See https://isis.apache.org/guides/dg/resources/asciidoc-writers-guide.pdf
+
+= Dummy HTML Document: Or how Git will render it
+:Author:            Peter Vranken
+:Email:             mailto:Peter_Vranken@Yahoo.de[P. Vranken]
+:Revnumber:         $Rev: 1 $
+:Revdate:           $Date: 17.11.2024 $
+//:doctype:           book
+:title-page:
+//:table-caption:     Tabelle // TODO Extract all german label settings into new template
+:toc:               left
+//:toc-title:         Inhaltsverzeichnis
+//:toc:
+:toclevels:         3
+//:numbered:
+:xrefstyle:         short
+//:sectanchors:       // Have URLs for chapters (http://.../#section-name
+:icons:             font
+:caution-caption:   :fire:
+:important-caption: :exclamation:
+:note-caption:      :paperclip:
+:tip-caption:       :bulb:
+:warning-caption:   :warning:
+// https://asciidoctor.org/docs/user-manual/
+
+
+== Introduction
+
+Root level chapter
+
+=== Sub Section
+
+Sub section text with^super^ and with ~sub-script~.
+
+Enumerations use asterisks footnote:[You can place footnotes to explain
+difficult terms]. The indentation of the text doesn't matter. You may or
+may not indent sub ordinated lists:
+
+* Principal item
+** Sub-item with non indented text in the source file
+* Principal item
+  ** Sub item with indented text in the source file; looks the same when rendered
+* See <<MOD_ADOC>> for more details
+  
+Numbered item list:
+
+. Principal numbered item
+.. Sub-item with non indented text in the source file
+. Principal numbered item
+  .. Sub item with indented text in the source file; looks the same when rendered
+  .. See how the next sub item is numbered
+  
+For nested lists and lists with items that contain several paragraghs see
+template nestedLists.adoc.
+
+== Images
+
+Inserting an image is as simple as a putting a line of text with the reference
+to that image. However, reliable accessibility of the document with all contained
+images, both, locally in the file system and through a web server -- most
+prominent at FEV is our SVN server --, requires some consideration of
+properly placing image files and adequate use of URLs. This has been
+explored and explained with examples at
+https://dew169.fev.com/svn/temp/trunk/howToUseImageURLsInAsciidoc/readMe.html.
+
+== Citations
+
+[[MOD_ADOC]]
+mod.adoc: :: "Enumerations use asterisks"
+
+== Hints
+
+NOTE:      A hint
+
+[NOTE]
+.Note Title
+This note got a title to make it more meaningful.
+
+TIP:       A tip
+
+IMPORTANT: This is important
+
+WARNING:   Be careful!
+
+CAUTION:   Aware of!
+
+[NOTE]
+.A titled multiline NOTE by delimited block
+=====================================================================
+Qui in magna commodo, est labitur dolorum an. Est ne magna primis
+adolescens.
+
+. Fusce euismod commodo velit.
+. Vivamus fringilla mi eu lacus.
+  .. Fusce euismod commodo velit.
+  .. Vivamus fringilla mi eu lacus.
+. Donec eget arcu bibendum
+  nunc consequat lobortis.
+
+[NOTE]
+.Disapproved!
+Embedded note
+=====================================================================
+
+== Source code sample
+
+C or C++ works both, nowrap shapes a horizointal scroll bar.
+
+[source,C++,options="nowrap"]
+---------------------------
+void main(void)
+{
+    printf("Hello World");
+    printf("Hellooooooooooooooooooooooooooooooooooooooooooooooooooooooo Wooooooooooooooooooooooooooooooorld!!!!!!!!!!!!!!!!!!!!!!");
+}
+---------------------------
+
+=== Source code, simple
+
+Like in markdown, you can use the most simple way of displaying source
+code by indenting the text. This kind of quoting has no language
+awareness:
+
+    void main(void)
+    {
+        printf("Hello World");
+    }
+
+[history]
+== Document history
+
+This compilation of the document is SVN
+$URL: https://dew169.fev.com/svn/dummyHtmlDoc.adoc $, $Rev: 1 $,
+$Date: 17.11.2024 $
+
+// See http://asciidoc.org/newtables.html
+// frame: top, bottom, topbot, all, sides, none
+.Document history
+[frame="none",width="90%",options="header",cols="^12%,15%,23%,50%"]
+|=======
+|Version |Date |Name |Description
+|1 |17.11.2024 |Peter Vranken a|Not a revision of document yet
+Initial revision of document
+|=======
+
+// Local Variables:
+// coding: utf-8
+// End:
