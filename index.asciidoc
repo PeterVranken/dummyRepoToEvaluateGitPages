@@ -13,7 +13,9 @@ https://dummyHtmlDoc.html[^] (This one doesn't work.)
 
 link:https:dummyHtmlDoc.html[^]
 
-link:dummyHtmlDoc.html[^]
+link:dummyHtmlDoc.html[^] (This local path works locally (resolved into
+file URLs) and inside GitHub. The protocol https is inherited in either
+case.)
 
 https://./dummyHtmlDoc.html[^] (This one doesn't work.)
 
