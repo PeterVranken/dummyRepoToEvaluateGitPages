@@ -9,13 +9,13 @@ Pages.
 Let's try a first link to an HTML document in the same folder:
 dummyHtmlDoc.html
 
-https://dummyHtmlDoc.html[https://dummyHtmlDoc.html^] (This
-one doesn't work.)
+https://dummyHtmlDoc.html[^] (This one doesn't work.)
 
-link:https:dummyHtmlDoc.html[link:https:dummyHtmlDoc.html^]
+link:https:dummyHtmlDoc.html[^]
 
-https://./dummyHtmlDoc.html[https://./dummyHtmlDoc.html^] (This
-one doesn't work.)
+link:dummyHtmlDoc.html[^]
+
+https://./dummyHtmlDoc.html[^] (This one doesn't work.)
 
 This page has been made with Asciidoc file index.asciidoc in the root of
 the repository. A file readMe.asciidoc is not recognized by GitHub. We had
