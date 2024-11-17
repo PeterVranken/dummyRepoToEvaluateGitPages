@@ -46,3 +46,12 @@ link:https:someJavaApplication/doc/dataModel/index.html[^]
 
 How do relative paths in links change if
 link:https:./doc/someTopic/someTopic.adoc[we leave the root file]? 
+
+Is it possible to use either Markdown or Asciidoc source code to define a
+page? Or d we always have to create HTML from these sources locally and
+have to upload this HTML? We address to two folders, each having a readme
+inside:
+
+Markdown: link:https:./doc/aPageInMarkdown[^]
+
+Asciidoc: link:https:./doc/aPageInAsciidoc[^]
